@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_weight="1"
+        android:text="Would you like to play table with me later?"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv1"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbtn1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:text="YES" />
+
+        <RadioButton
+            android:id="@+id/rbtn2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:text="NO" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/colorPrimaryDark"
+        tools:background="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_below="@id/line1"
+        android:text="My name is Zhahangir"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/rg3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv2"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbtn3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:text="YES" />
+
+        <RadioButton
+            android:id="@+id/rbtn4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:text="NO" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/colorPrimaryDark"
+        tools:background="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_below="@id/line2"
+        android:text="Do you believe in me?"
+        android:textSize="20sp"
+        tools:ignore="UnknownId" />
+
+    <RadioGroup
+        android:id="@+id/rg5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv3"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+        android:id="@+id/rbtn5"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_weight="1"
+        android:text="YES" />
+
+        <RadioButton
+            android:id="@+id/rbtn6"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:text="NO" />
+
+    </RadioGroup>
+
+    ///
+
+    <TextView
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="235dp"
+        android:textColor="@color/colorPrimaryDark"
+        tools:background="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_below="@id/line3"
+        android:text="Nice weather today"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/rg7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv4"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbtn7"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:text="YES" />
+
+        <RadioButton
+            android:id="@+id/rbtn8"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:text="NO" />
+
+    </RadioGroup>
+
+
+    ///
+
+
+    <TextView
+        android:id="@+id/line4"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="322dp"
+        android:textColor="@color/colorPrimaryDark"
+        tools:background="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_below="@id/line4"
+        android:text="Have you ever been to London?"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/rg9"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv5"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbtn9"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:text="YES" />
+
+        <RadioButton
+            android:id="@+id/rbtn10"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:text="NO" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:background="@android:color/holo_green_light"
+        android:text="SUBMIT" />
+
+
+</RelativeLayout>
